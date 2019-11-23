@@ -1,0 +1,3 @@
+/home/mingwang/sysprogramming/practiceTyping/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mingwang/sysprogramming/practiceTyping/cmake-build-debug/CMakeFiles/practiceTyping.dir
+/home/mingwang/sysprogramming/practiceTyping/cmake-build-debug/CMakeFiles/edit_cache.dir
