@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mingwang/sysprogramming/findfile/main.cpp
+stdio.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+dirent.h
+-
+cstdlib
+-
+string.h
+-
+

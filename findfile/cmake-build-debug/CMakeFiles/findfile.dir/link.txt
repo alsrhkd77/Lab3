@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/findfile.dir/main.cpp.o  -o findfile 
