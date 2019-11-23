@@ -1,0 +1,3 @@
+/home/mingwang/sysprogramming/likeSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mingwang/sysprogramming/likeSystem/cmake-build-debug/CMakeFiles/likeSystem.dir
+/home/mingwang/sysprogramming/likeSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
