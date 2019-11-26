@@ -54,13 +54,9 @@ void readDir(char * dirName){
     closedir(pdir);
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     DIR *pdir;
 
-    if (argc < 2) {
-        fprintf(stderr, "Usage: file_dir dirname\n");
-        exit(1);
-    }
-
-    readDir(argv[1]);
+    readDir(".");
+    return 0;
 }

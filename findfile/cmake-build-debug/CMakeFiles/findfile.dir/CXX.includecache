@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mingwang/sysprogramming/findfile/main.cpp
+/home/mingwang/class/gitrepository/Lab3/findfile/main.cpp
 stdio.h
 -
 sys/types.h

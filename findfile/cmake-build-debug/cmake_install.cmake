@@ -1,4 +1,4 @@
-# Install script for directory: /home/mingwang/sysprogramming/findfile
+# Install script for directory: /home/mingwang/class/gitrepository/Lab3/findfile
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mingwang/sysprogramming/findfile/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mingwang/class/gitrepository/Lab3/findfile/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

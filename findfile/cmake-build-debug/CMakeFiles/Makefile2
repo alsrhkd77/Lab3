@@ -44,10 +44,10 @@ RM = /home/mingwang/clion-2019.2.5/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mingwang/sysprogramming/findfile
+CMAKE_SOURCE_DIR = /home/mingwang/class/gitrepository/Lab3/findfile
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mingwang/sysprogramming/findfile/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mingwang/class/gitrepository/Lab3/findfile/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ preinstall:
 CMakeFiles/findfile.dir/all:
 	$(MAKE) -f CMakeFiles/findfile.dir/build.make CMakeFiles/findfile.dir/depend
 	$(MAKE) -f CMakeFiles/findfile.dir/build.make CMakeFiles/findfile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingwang/sysprogramming/findfile/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target findfile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mingwang/class/gitrepository/Lab3/findfile/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target findfile"
 .PHONY : CMakeFiles/findfile.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/findfile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingwang/sysprogramming/findfile/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingwang/class/gitrepository/Lab3/findfile/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/findfile.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingwang/sysprogramming/findfile/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mingwang/class/gitrepository/Lab3/findfile/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/findfile.dir/rule
 
 # Convenience name for target.
