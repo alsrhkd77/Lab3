@@ -8,7 +8,6 @@
 #define QNAME_R "/1_queue"
 #define QNAME_W "/2_queue"
 #define PRIORITY 1
-char send_data[] = "chat2";
 char recv_data[BUFSIZE];
 int main()
 {
@@ -24,7 +23,7 @@ int main()
 
     if (pid == 0) //child
     {
-        if ((qd = mq_open(QNAME_R, O_RDWR | O_NONBLOCK, 0600, NULL)) == -1)
+        if ((qd = mq_open(QNAME_R, O_RDONLY | O_NONBLOCK, 0600, NULL)) == -1)
         {
             perror("mq_open failed");
             exit(1);
@@ -72,7 +71,7 @@ int main()
         while (1)
         {
             fgets(input, BUFSIZE, stdin);
-		    input[BUFSIZE-1] = '\0';
+		    //input[BUFSIZE-1] = '\0';
             if (input[0] != 0)
             {
                 if (mq_send(qd, input, BUFSIZE, PRIORITY) == -1)
